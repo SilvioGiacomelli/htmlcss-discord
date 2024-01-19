@@ -11,7 +11,7 @@ body{
 /* Header */
 
 header{
-  background-color: #add8e6;
+  background-color: #255EE9;
   padding: 10px
 }
 
@@ -45,14 +45,18 @@ nav a{
 }
 
 /* Fine header */
-/* Blocco blu */
+/* Blocco jumbo */
 
-.container-blue {
+.container-jumbo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue; 
-  height: 520px; 
+  background-image: url(img/jumbo.png);
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+  padding-top: 180px;
+  padding-bottom: 0;
 }
 
 .square-pink {
@@ -62,7 +66,7 @@ nav a{
   border: 3px dashed black; 
 }
 
-/* Fine Blocco blu */
+/* Fine Blocco jumbo */
 /* Blocco bianco */
 
 .container-white {
@@ -71,15 +75,14 @@ nav a{
   align-items: center;
   background-color: rgb(255, 255, 255); 
   height: 600px; 
-  justify-content: center;
-  align-items: center;
+  
 }
 
-.square-a {
-  background-color: lightblue;
+.study-group {
+  background-color: white;
+  display: flex;
   width: 750px;
   height: 520px;
-  border: 3px dashed black;
 
 }
 
@@ -98,7 +101,7 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D3D3D3; 
+  background-color: #F6F6F6; 
   height: 600px; 
   justify-content: center;
   align-items: center;
@@ -112,29 +115,58 @@ nav a{
 
 }
 
-.square-d {
-  background-color: lightblue; 
+.voice-connected {
+  background-color: #F6F6F6; 
   width: 750px;
+  height: 520px;
+  display: flex;
+
+}
+
+/* Fine Blocco grigio */
+/* Blocco bianco */
+
+.container-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255); 
+  height: 600px; 
+  
+}
+
+.coach {
+  background-color: white;
+  display: flex;
+  width: 750px;
+  height: 520px;
+  
+}
+
+.square-b {
+  background-color:pink; 
+  width: 500px;
   height: 520px;
   border: 3px dashed black;
 
 }
 
-/* Fine Blocco grigio */
+/* Fine blocco bianco */
 /* Blocco grigio/verde */
 
 .container-grey-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey; 
+  background-color: #F6F6F6; 
   height: 1300px; 
 }
 
 .square-green {
+  display: flex;
   width: 1250px; 
   height: 940px; 
-  background-color: green; 
+  background-color: #F6F6F6; 
   border: 3px dashed black; 
 }
 
