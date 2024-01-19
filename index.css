@@ -165,7 +165,7 @@ background-color: white;
 /* Fine bottoni */
 
 /* Fine Blocco jumbo */
-/* Blocco bianco */
+/* Blocco rana */
 
 .container-white {
   display: flex;
@@ -193,39 +193,49 @@ background-color: white;
   height: 520px;
 }
 
-.testo-grande {
-  font-size: 48px; 
+.testo-grande-rana {
+  font-size: 50px; 
   font-weight: bold; 
   line-height: 1.1; 
   letter-spacing: -2px; 
   margin-bottom: 20px; 
-  
   padding-top: 30px;
 }
 
-.testo-piccolo {
-  font-size: 20px; 
+.testo-piccolo-rana {
+  font-size: 25px; 
   line-height: 1.4; 
+  font-weight: bold;
 }
-/* Fine Blocco bianco */
-/* Blocco grigio */
+/* Fine Blocco rana */
+/* Blocco mago */
 
 .container-grey {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F6F6F6; 
-  height: 600px; 
-  justify-content: center;
-  align-items: center;
+  height: 650px; 
 }
 
-.square-c {
-  background-color: #FFC0CB;
+.square-dove {
   width: 500px;
   height: 520px;
-  border: 3px dashed black;
+}
 
+.testo-grande-mago{
+  font-size: 50px; 
+  font-weight: bold; 
+  line-height: 1.1; 
+  letter-spacing: -2px; 
+  margin-bottom: 20px; 
+  padding-top: 30px;
+}
+
+.testo-piccolo-mago{
+  font-size: 30px; 
+  line-height: 1.4;
+  font-weight: bold;
 }
 
 .voice-connected {
@@ -233,11 +243,10 @@ background-color: white;
   width: 750px;
   height: 520px;
   display: flex;
-
 }
 
-/* Fine Blocco grigio */
-/* Blocco bianco */
+/* Fine Blocco mago */
+/* Blocco orco */
 
 .container-white {
   display: flex;
