@@ -362,63 +362,69 @@ background-color: white;
 }
 
 /* Fine Blocco finale */
-/* Blocco nero */
 
-.container-black {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000000; 
-  height: 600px; 
-  justify-content: center;
-  align-items: center;
-}
-
-.square-e{
-  background-color: red;
-  width: 300px;
-  height: 520px;
-  border: 3px dashed black;
-}
-
-.square-f{
-  background-color: rgb(19, 158, 180);
-  width: 237.5px;
-  height: 520px;
-  border: 3px dashed rgb(255, 255, 255);
-}
-
-/* Fine Blocco nero */
-/* Spaziatura grigia*/
-
-.linea{
-  background-color: grey;
-  height: 10px;
-}
-
-/* Fine spaziatura grigia */
 /* Footer */
 
 footer{
-  background-color: #000000;
-  padding: 10px;
+  background-color: #23272A;
 }
 
-.container2{
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: green;
+footer ul{
+list-style-type: none;
 }
 
-.inner-footer{
+footer h3, h4{
+  color: #5865F2;
+}
+
+.site-footer {
+  background-color: #23272A; /* Colore di sfondo del footer */
+  color: white; /* Colore del testo */
+  padding: 40px; /* Spazio intorno al contenuto del footer */
+}
+
+.footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* Distribuisce equamente il contenuto */
+  flex-wrap: wrap; /* Consente agli elementi di andare a capo se necessario */
 }
 
-.logo-2, .bottone {
-  background-color:#DAA520;
-  padding: 10px;
-  border: 2px dashed #000;
+.footer-section {
+  margin-bottom: 20px; /* Spazio sotto ogni sezione */
 }
 
-/* Fine footer */
+.flag{
+  
+}
+
+.footer-section h3, .footer-section h4 {
+  margin-bottom: 10px; /* Spazio sotto ogni titolo di sezione */
+}
+
+.language-selector, .social-icons, .register-button {
+  margin-bottom: 10px; /* Spazio sotto i selettori e i bottoni */
+}
+
+.social-icon {
+  display: inline-block; /* Mostra le icone dei social in linea */
+  margin-right: 10px; /* Spazio a destra di ogni icona */
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  border-top: 1px solid #40444B; 
+  padding-top: 20px; 
+}
+
+.register-button {
+  background-color: #5865F2; 
+  color: white;
+  border: none;
+  border-radius: 20px; 
+  padding: 10px 20px; 
+  cursor: pointer;
+}
+
+/* Fine footer  */
