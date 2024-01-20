@@ -169,7 +169,7 @@ background-color: white;
 
 .container-white {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: rgb(255, 255, 255); 
   height: 800px; 
@@ -181,7 +181,7 @@ background-color: white;
   display: flex;
   width: 750px;
   height: 520px;
-
+  margin-right: 60px;
 }
 
 .square-luogo{
@@ -248,9 +248,9 @@ background-color: white;
 /* Fine Blocco mago */
 /* Blocco orco */
 
-.container-white {
+.container-white2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(255, 255, 255); 
   height: 600px; 
@@ -265,34 +265,103 @@ background-color: white;
   
 }
 
-.square-b {
-  background-color:pink; 
+.square-b { 
   width: 500px;
   height: 520px;
-  border: 3px dashed black;
-
 }
 
-/* Fine blocco bianco */
-/* Blocco grigio/verde */
+.testo-grande-orco{
+  font-size: 50px; 
+  font-weight: bold; 
+  line-height: 1.1; 
+  letter-spacing: -2px; 
+  margin-bottom: 20px; 
+  padding-top: 30px;
+}
 
-.container-grey-2 {
+.testo-piccolo-orco{
+  font-size: 30px; 
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+/* Fine blocco orco */
+/* Blocco finale */
+
+.containerf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6; 
+  padding: 20px;
+}
+
+.text-content h2 {
+  color: #23272a; 
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 40px;
+}
+
+.text-content p {
+  color: #2c2f33; 
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.image-content {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #F6F6F6; 
-  height: 1300px; 
 }
 
-.square-green {
+.desktop-image {
+  max-width: 60%; 
+  margin-bottom: -50px; 
   display: flex;
-  width: 1250px; 
-  height: 940px; 
-  background-color: #F6F6F6; 
-  border: 3px dashed black; 
+  justify-content: center;
+  align-content: center;
 }
 
-/* Fine Blocco grigio/verde */
+.pronto{
+  background-image: url(img/stars.svg);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 24px;
+  margin-left: 5px;
+}
+
+.Mac {
+  background-color: #7289DA; 
+  color: white; 
+  padding: 10px 20px; 
+  font-weight: 500; 
+  font-size: 16px; 
+  border-radius: 20px; 
+  border: none; 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2); 
+  outline: none; 
+  margin-bottom: 20px;
+}
+
+.mac:hover {
+  background-color: #5B6EAE; 
+}
+
+.download-icon {
+  margin-right: 8px; 
+}
+
+/* Fine Blocco finale */
 /* Blocco nero */
 
 .container-black {
